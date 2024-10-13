@@ -32,9 +32,9 @@ The codebase utilizes **PyTorch** and **Jupyter notebooks** for both training th
 
 ## Model and Data
 
-The MRI data used in this study is sourced from the **[Alzheimer's Disease Neuroimaging Initiative (ADNI)](http://adni.loni.usc.edu/)**. Access to the MRI scans is free, but you must apply for access.
+The MRI data used in this study is sourced from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Access to the MRI scans is free, but you must apply for access.
 
-For consistency with the codebase, organize the MRI scans according to the folder structure specified in `datasets.py`. Preprocessing of images was performed using **ANTs** non-linear registration.
+For consistency with the codebase, organize the MRI scans according to the folder structure specified in datasets.py. We utilized the preprocessed version of this dataset provided by our supervisor, and the preprocessing of images was performed using ANTs non-linear registration.
 
 ---
 
