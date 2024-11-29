@@ -27,14 +27,17 @@ The codebase utilizes **PyTorch** and **Jupyter notebooks** for both training th
 ### Python files supporting these notebooks include:
 - **`interpretation.py`**: Methods for visualizing CNN decisions.
 - **`utils.py`**: Utility functions for MRI scan processing and visualization.
-
+- **`models.py`**: Various Model Implementations
+- **`datasets.py`**: Functions for Pipelining dataset into Model 
 ---
 
 ## Model and Data
 
-The MRI data used in this study is sourced from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Access to the MRI scans is free, but you must apply for access.
+The MRI data used in this study was sourced from the Alzheimer's Disease Neuroimaging Initiative (ADNI), which provides free access to its MRI scans upon application. For those interested in accessing the dataset from the original source, details regarding folder organization for MRI scans can be found in the **`datasets.py`** file of the codebase.
 
-For consistency with the codebase, organize the MRI scans according to the folder structure specified in datasets.py. We utilized the preprocessed version of this dataset provided by our supervisor, and the preprocessing of images was performed using ANTs non-linear registration.
+For our project, we utilized a preprocessed version of the dataset provided by our supervisor. The preprocessing of images was performed using ANTs non-linear registration to standardize the data for analysis.
+
+For more information about the ADNI dataset, visit https://adni.loni.usc.edu/.
 
 ---
 
